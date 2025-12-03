@@ -1,0 +1,5 @@
+{
+  "name": "MindScribe",
+  "description": "A modern, minimalist notebook enhanced with Gemini AI for summarization, auto-titling, and content polishing.",
+  "requestFramePermissions": []
+}
