@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
     define: {
-      // This ensures process.env.API_KEY is available in the browser code
+      // Replaces process.env.API_KEY in the code with the actual value during build
       'process.env.API_KEY': JSON.stringify(env.API_KEY),
     }
   };
